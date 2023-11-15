@@ -13,7 +13,7 @@ for( const greet of greetings) {
 }
 
 //===========MAPS=========
-//Unique values, Maintains Order
+//Unique values, Maintains Order, Non-Iteratable
 
 const map = new Map()
 map.set('IN', "India")
@@ -24,6 +24,7 @@ map.set('IN', "India")
 console.log(map);
  
 //iteration maps using FOR OF
+
 for (const [Key, value] of map) { //destructure array
     console.log(Key, value );
     
