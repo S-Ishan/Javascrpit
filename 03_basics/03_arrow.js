@@ -15,16 +15,18 @@ const user = {
 
 // const chai = function() {
 //     let username = "Ishan"
-//     console.log(this.username); //undefined
+    // console.log(this.username); //undefined
 // }
 
-const chai =() => {
+const chai = () => {
     let username = "Ishan"
     console.log(this); 
 }
-chai()
+console.log(chai());
 
 //++++++++++Arrow-FUNCTIONS+++++++++++++++++++++
 
+// const addTwo = (num1, num2) => (num1 + num2)
+// const addTwo = (num1, num2) => num1 + num2
 const addTwo = (num1, num2) => (num1 + num2)
 console.log(addTwo(3,4));
