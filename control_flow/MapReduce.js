@@ -20,4 +20,5 @@ const Total = myNums.reduce(function (acc, currval) {
     return acc + currval
 }, 0)
 
-console.log(Total);
+const myTotal = myNums.reduce( (acc, currval) => acc+currval, 0)
+console.log(myTotal);
